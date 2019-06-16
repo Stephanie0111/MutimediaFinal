@@ -1,0 +1,162 @@
+nav
+{
+	overflow: visible;
+	text-align: center;
+	background-image: url("image/123.png");
+	-webkit-box-shadow: 0px 8px 15px #333;
+	top:0;
+	width: 100%;
+	transition:all 0.5s;
+	position: relative;
+	z-index: 99999999;
+	font-family:微軟正黑體;
+}
+
+.fixed-nav nav 
+{
+	position: fixed;
+}
+
+.menu {
+  display: flex;
+  align-items: stretch;
+  list-style: none;
+  background-image: url("image/123.png");
+  margin-right:150px;
+  height: 20px;
+  font-family:微軟正黑體;
+  font-size:18px;
+}
+
+.menu-item {
+  position: relative;
+  flex: 1;
+  margin: 0 7px;
+  padding: 0;
+  margin-top:10px;
+}
+.menu-item:hover {
+  cursor: pointer;
+}
+.menu-item:hover > .dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ccc;
+  list-style: none;
+  background-color:black;
+  margin-left:50px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:white;
+}
+
+.lihover:hover
+{
+	color:#EEEE00;
+}
+
+.menu-item > .dropdown {
+  display: none;
+  position:relative;
+  left:-24px;
+}
+
+#menu li:hover a, #menu li.active a
+	{
+		background: #FFF;
+		border-radius: 7px 7px 7px 7px;
+		color: black;	
+		font-family:微軟正黑體;
+	}
+	
+	#menu li a
+	{
+		display: inline-block;
+		line-height:50px;
+		padding: 0em 1.5em;
+		text-decoration: none;
+		font-weight:bold;
+		color: #FFF;
+		position: relative;
+		font-family:微軟正黑體;
+	}
+	
+.shopping_cart
+{
+	width: 50px;
+	height: 50px;
+	margin-top:-10px;
+}
+
+.pic{overflow:hidden;}
+.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+.pic img:hover{transform:scale(1.25,1.25);}
+
+.loadpeople
+{
+	width: 50px;
+	height: 50px;
+	margin-top:-10px;
+}
+
+#fade {
+  display:none;
+  top:0%;
+  left:0%;
+  width:100%;
+  height:100%;
+  background-color:black;
+  z-index:1001000000;
+  -moz-opacity:0.8;
+  opacity:.80;
+  filter:alpha(opacity=80);
+  position: fixed;
+}
+#light{
+  display:none;
+  top:5%;
+  left:25%;
+  width:50%;
+  height:83%;
+  background-color:black;
+  z-index:1002000000;
+  overflow:auto;
+  position: fixed;
+  border-radius:10px;
+}
+
+#light .color
+{
+position:absolute;
+top:0px;
+right:5px;
+color:black;
+font-size:35px;
+z-index:1000000000000000000000000;
+}
+
+.logob
+{
+	width:90px;
+	margin-top:5px;
+}
+
+.loginbu
+{
+	border:0;
+	background-color:#003C9D;
+	color:#fff;
+	border-radius:5px;
+	cursor:pointer;
+	padding:5px;
+}
+
+.loginbu:hover
+{
+	color:#003C9D;
+	background-color:#fff;
+	border:2px #003C9D solid;
+}

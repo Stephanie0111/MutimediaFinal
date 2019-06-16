@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  font-family:微軟正黑體;
+}
+
+html {
+  background: url(http://imd.edumedia.ca/mars0277/code/grey.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  background: url("http://themes.mediacreed.com/html/synergy/assets/patterns/menu/menu_pattern_1.png");
+  border-right: 10px solid #d00355;
+  left:-250px;
+  z-index: 999999999;
+}
+#sidebar ul {
+  margin-top: 30px;
+}
+#sidebar li {
+  list-style: none;
+  padding: 10px;
+  position: relative;
+}
+#sidebar a {
+  text-decoration: none;
+  color: #555;
+  font: 15px Open Sans;
+  font-family:微軟正黑體;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
+}
+#sidebar .hover {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 40px;
+  top: 0px;
+  left: 0px;
+  background: #d00355;
+  z-index: 0;
+  opacity: 0;
+}
+#sidebar a:hover {
+  color: #FFF;
+}
+#sidebar .fa-angle-right {
+  position: absolute;
+  left: 150px;
+  top: 1px;
+}
+#sidebar .sub-menu {
+  position: absolute;
+  left: 210px;
+  top: -30px;
+  padding: 0px;
+  width: 100px;
+  display: none;
+  background: url("http://themes.mediacreed.com/html/synergy/assets/patterns/menu/menu_pattern_1.png");
+}
+#sidebar .sub-menu li a {
+  padding-left: 30px;
+  font-size: 13px;
+  font-family:微軟正黑體;
+}
+#sidebar .sub-menu i {
+  left: 80px;
+}
+#sidebar ul li:hover ul {
+  display: block;
+}
+#sidebar .push {
+  margin-right: 10px;
+}
+
+.h1sb {
+  color: #FFF;
+  font: 16px Open Sans;
+  font-size:20px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.color {
+  color: #d00355;
+}
+
+.sbimg
+{
+  position:absolute;
+  top:30%;
+  right:-75px;
+  height:100px;
+  z-index:-1;
+}
+
+.searchform {
+	display: inline-block;
+	border: solid 1px #d2d2d2;
+	padding: 3px 5px;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	-webkit-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+	box-shadow: 0 1px 0px rgba(0,0,0,.1);
+	background: #f1f1f1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	margin-top:20px;
+	margin-left:35px;
+}
+
+.searchform .searchfield {
+	background: #fff;
+	padding: 6px 6px 6px 8px;
+	width: 120px;
+	border: solid 1px #bcbbbb;
+	outline: none;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}
+.searchform .searchbutton {
+	color: #fff;
+	border: solid 1px #494949;
+	font-size: 11px;
+	height: 27px;
+	width: 27px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.6);
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	background: #5f5f5f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#454545));
+	background: -moz-linear-gradient(top,  #9e9e9e,  #454545);
+	cursor: pointer;
+}
