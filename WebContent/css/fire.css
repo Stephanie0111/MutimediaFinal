@@ -1,0 +1,23 @@
+
+svg {
+  width: 70%;
+  height: 170px;
+
+}
+
+text {
+  stroke-width:5;
+  stroke-opacity: .4;
+  font-family:·L³n¥¿¶ÂÅé;
+  font-size: 5em;
+}
+
+.t--water {
+  fill: url(#pt--water);
+  stroke: #004384;
+}
+
+.t--fire {
+  fill: url(#pt--fire);
+  stroke: #4d0000;
+}

@@ -1,0 +1,169 @@
+.sidepanel  {
+  width:0px;
+  position: fixed;
+  z-index: 999999999;
+  height: 65%;
+  top: 70px;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-top-left-radius:15px;
+  border-bottom-left-radius:15px;
+  background-image:url("image/img01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-size:400px;
+  font-family:微軟正黑體;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+}
+
+.openbtn 
+{
+  cursor: pointer;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+.shoppingtitle
+{
+	position:absolute;
+	top:15px;
+	left:40%;
+    background: linear-gradient(red,yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.carimg
+{
+	position:absolute;
+	top:5px;
+	left:10px;
+	width:60px;
+}
+
+.list
+{
+	float:left;
+	width:100%;
+	color:white;
+	margin-top:10px;
+	margin-left:5px;
+}
+
+.list img
+{
+	width:75px;
+}
+
+.total
+{
+	color:red;
+	text-align:right;
+	font-size:20px;
+	position:relative;
+	margin-top:0.5em;
+	margin-bottom:10px;
+	right:15px;
+}
+
+.shoppingbutton
+{
+	border:0;
+	background-color:#003C9D;
+	color:#fff;
+	border-radius:5px;
+	cursor:pointer;
+	padding:5px;
+}
+
+.shoppingbutton:hover
+{
+	color:#003C9D;
+	background-color:#fff;
+	border:2px #003C9D solid;
+}
+
+table
+{
+	width:100%;
+	text-align:center;
+}
+
+hr
+{
+	background-color:white;
+	border:none;
+	height:1px;
+	width:100%;
+}
+
+.button_shop {
+	padding: 0.5em 1em;
+	text-align: center;
+	text-decoration: none;
+	color: #2194E0;
+	border: 2px solid #2194E0;
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 10em;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+	overflow: hidden;
+	background-color:black;
+	font-family:微軟正黑體;
+	font-weight:bold;
+	margin-left:15px;
+	cursor: pointer;
+	margin-top:0.5em;
+}
+
+.button_shop:before {
+	content: "";
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 100%;
+	width: 3em;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -4.5em;
+	transform: skewX(-45deg) translateX(0);
+	transition: none;
+}
+
+.button_shop:hover {
+	background-color: #2194E0;
+	color: #fff;
+	border-bottom: 4px solid #1977b5;
+}
+
+.button_shop:hover:before {
+	transform: skewX(-45deg) translateX(13.5em);
+	transition: all 0.5s ease-in-out;
+}

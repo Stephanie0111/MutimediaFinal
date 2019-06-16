@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+}
+
+#menu
+{
+	height: 70px;
+}
+
+#menu li a, #menu li span
+{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 60px;
+	outline: 0;
+	color: #FFF;
+}
+
+.title1
+{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:60px;
+	color:white;
+}
+
+.shopping_cart
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.loadpeople
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+.bod
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("image/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+}
+
+.associatortable
+{
+	background-color:#666666;
+}
+
+.space
+{
+  min-height:100px;
+}
+
+.associator
+{
+	margin-left:50px;
+	margin-right:50px;
+	width:100px;
+}
